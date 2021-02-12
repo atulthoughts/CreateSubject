@@ -18,7 +18,7 @@ import com.qa.trialcomplete.base.TestBase;
 
 public class HomePage extends TestBase{
 
-	
+	//Modified to checkin into Git
 	
 	public HomePage() throws IOException {
 		super();
