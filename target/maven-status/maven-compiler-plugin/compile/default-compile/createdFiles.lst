@@ -1,0 +1,10 @@
+com\qa\trialcomplete\base\Path.class
+com\trialcomplete\qa\TestUtil.class
+com\qa\trialcomplete\pages\LoginPage.class
+com\qa\trialcomplete\pages\UserPage.class
+com\qa\trialcomplete\pages\StudyPage.class
+com\trialcomplete\qa\ListnersNG.class
+com\qa\trialcomplete\base\TestBase.class
+com\qa\trialcomplete\pages\HomePage.class
+com\qa\trialcomplete\pages\SubjectPage.class
+com\trialcomplete\qa\VariablesUtil.class

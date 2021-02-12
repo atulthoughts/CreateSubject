@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46337" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:14:04 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46337" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:14:04 IST">
+      <class name="com.qa.trialcomplete.tests.CreateSubjectTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="setUp" is-config="true" duration-ms="17393" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:13:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="login" duration-ms="11110" started-at="2021-02-10T21:13:35 IST" finished-at="2021-02-10T21:13:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createSubject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="createSubject" duration-ms="15987" started-at="2021-02-10T21:13:47 IST" data-provider="getSubjectData" finished-at="2021-02-10T21:14:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22.JAN.2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Him]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Markaus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSubject -->
+      </class> <!-- com.qa.trialcomplete.tests.CreateSubjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
