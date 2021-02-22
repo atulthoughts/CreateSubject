@@ -1,52 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46337" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:14:04 IST">
+  <suite name="Suite" duration-ms="36050" started-at="2021-02-21T14:19:26 IST" finished-at="2021-02-21T14:20:02 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46337" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:14:04 IST">
-      <class name="com.qa.trialcomplete.tests.CreateSubjectTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="setUp" is-config="true" duration-ms="17393" started-at="2021-02-10T21:13:17 IST" finished-at="2021-02-10T21:13:35 IST">
+    <test name="Test" duration-ms="36050" started-at="2021-02-21T14:19:26 IST" finished-at="2021-02-21T14:20:02 IST">
+      <class name="com.qa.trialcomplete.tests.CreateStudyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trialcomplete.tests.CreateStudyTest@e320068]" name="setUp" is-config="true" duration-ms="1" started-at="2021-02-21T14:19:49 IST" finished-at="2021-02-21T14:19:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="login" duration-ms="11110" started-at="2021-02-10T21:13:35 IST" finished-at="2021-02-10T21:13:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="createSubject(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.trialcomplete.tests.CreateSubjectTest@646d64ab]" name="createSubject" duration-ms="15987" started-at="2021-02-10T21:13:47 IST" data-provider="getSubjectData" finished-at="2021-02-10T21:14:03 IST">
+        <test-method status="PASS" signature="createStudy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:1, instance:com.qa.trialcomplete.tests.CreateStudyTest@e320068]" name="createStudy" duration-ms="11860" started-at="2021-02-21T14:19:50 IST" data-provider="getStudyData" finished-at="2021-02-21T14:20:02 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[22.JAN.2000]]>
+                <![CDATA[study]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Him]]>
+                <![CDATA[label]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Markaus]]>
+                <![CDATA[BI]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Male]]>
+                <![CDATA[Randomized]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[English]]>
+                <![CDATA[300.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[First Medication]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@58ffcbd7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSubject -->
-      </class> <!-- com.qa.trialcomplete.tests.CreateSubjectTest -->
+        </test-method> <!-- createStudy -->
+      </class> <!-- com.qa.trialcomplete.tests.CreateStudyTest -->
+      <class name="com.qa.trialcomplete.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trialcomplete.tests.LoginTest@536aaa8d]" name="setUp" is-config="true" duration-ms="16279" started-at="2021-02-21T14:19:26 IST" finished-at="2021-02-21T14:19:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(org.testng.ITestContext)[pri:1, instance:com.qa.trialcomplete.tests.LoginTest@536aaa8d]" name="loginTest" duration-ms="4319" started-at="2021-02-21T14:19:42 IST" finished-at="2021-02-21T14:19:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58ffcbd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.trialcomplete.tests.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -41,22 +41,25 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath= "//*[text()='Subject Identity']")
 	WebElement subjectIdentity;
-//	
-//	@FindBy(xpath= "//*[@class='imed-icon imed-icon-Tadmin']")
-//	WebElement trialAdmin;
-//	
-//	@FindBy(xpath= "//*[@class='imed-icon imed-icon-Tadmin']")
-//	WebElement trialAdmin;
-//	
-//	@FindBy(xpath= "//*[@class='imed-icon imed-icon-Tadmin']")
-//	WebElement trialAdmin;
-//	
-//	@FindBy(xpath= "//*[@class='imed-icon imed-icon-Tadmin']")
-//	WebElement trialAdmin;
-//	
-//	@FindBy(xpath= "//*[@class='imed-icon imed-icon-Tadmin']")
-//	WebElement trialAdmin;
-
+	
+	@FindBy(xpath= "//*[@class='imed-icon imed-icon-tdesigner']")
+	WebElement trialDesign;
+	
+	@FindBy(xpath= "//*[text()='Study Management']")
+	WebElement studyManagement;
+	
+	@FindBy(xpath= "//*[text()=' Administrative Data ']")
+	WebElement studyAdminData;
+	
+	@FindBy(xpath= "//*[text()='Study Flow']")
+	WebElement studyFlow;
+	
+	@FindBy(xpath= "//*[text()=' Screening/Follow Up(SCR_FUP) ']")
+	WebElement scrFup;
+	
+	@FindBy(xpath= "//*[text()=' Treatment Template ']")
+	WebElement trtemplate;
+	
 	
 	//-----We can find the elements of the same characteristic-----
 	@FindAll({	    
@@ -85,6 +88,44 @@ public class HomePage extends TestBase{
 		return new SubjectPage();
 		
 	}
+	
+	public StudyPage navigateToStudyAdmin() throws IOException {
+
+		wait.until(ExpectedConditions.visibilityOf(trialDesign));
+		
+		js.executeScript("arguments[0].click();", trialDesign);
+		js.executeScript("arguments[0].click();", studyManagement);
+		js.executeScript("arguments[0].click();", studyAdminData);
+		
+		return new StudyPage();
+		
+	}
+	
+	public ScrFupPage navigateToScrFup() throws IOException {
+
+		wait.until(ExpectedConditions.visibilityOf(trialDesign));
+		
+		js.executeScript("arguments[0].click();", trialDesign);
+		js.executeScript("arguments[0].click();", studyFlow);
+		js.executeScript("arguments[0].click();", scrFup);
+		
+		return new ScrFupPage();
+		
+	}
+	
+	public TemplatePage navigateToTrtTemplate() throws IOException {
+
+		wait.until(ExpectedConditions.visibilityOf(trialDesign));
+		
+		js.executeScript("arguments[0].click();", trialDesign);
+		js.executeScript("arguments[0].click();", studyFlow);
+		js.executeScript("arguments[0].click();", trtemplate);
+		
+		return new TemplatePage();
+		
+	}
+	
+	
 
 }
 

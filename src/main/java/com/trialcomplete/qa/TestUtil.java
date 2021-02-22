@@ -13,7 +13,7 @@ import com.qa.trialcomplete.base.TestBase;
 
 public class TestUtil extends TestBase{
 	
-	public static String TESTDATA_SHEET_NAME = System.getProperty("user.dir")+"\\src\\main\\java\\com\\trialcomplete\\testdata\\SubjectData.xlsx";
+	public static String TESTDATA_SHEET_NAME = System.getProperty("user.dir")+"\\src\\main\\java\\com\\trialcomplete\\testdata\\TestData.xlsx";
 	static Workbook book;
 	static Sheet sheet;
 	
@@ -50,12 +50,6 @@ public class TestUtil extends TestBase{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
-	//--Switching to Frame----------
-	public void switchToFrame() {
-		driver.switchTo().frame("Sahar");
-	} 
-	
 	
 
 }

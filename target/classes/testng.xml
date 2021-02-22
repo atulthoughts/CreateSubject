@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Login Tests Suite">
   <test thread-count="1" name="Trial Complete Application login Test Cases">
-    <classes>
+    <classes>    
       <class name="com.qa.trialcomplete.tests.LoginTest"/>
+      <class name="com.qa.trialcomplete.tests.CreateStudyTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,8 +6,9 @@
 	</listeners>
   <test thread-count="1" name="Test">
     <classes>
-<!--       <class name="com.qa.trialcomplete.tests.LoginTest"/> -->
-      <class name="com.qa.trialcomplete.tests.CreateSubjectTest"/>
+	<class name="com.qa.trialcomplete.tests.LoginTest"/> 
+      <!--  <class name="com.qa.trialcomplete.tests.CreateSubjectTest"/>-->
+      <class name="com.qa.trialcomplete.tests.CreateStudyTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
